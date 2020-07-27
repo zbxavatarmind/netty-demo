@@ -17,7 +17,7 @@ public class EchoServer {
 	public static void main(String[] args) throws InterruptedException {
 		EventLoopGroup bossGroup = new NioEventLoopGroup(1);
 	    EventLoopGroup workerGroup = new NioEventLoopGroup();
-//	    final EchoServerHandler serverHandler = new EchoServerHandler();343
+//	    final EchoServerHandler serverHandler = new EchoServerHandler();34345
 	    final MyEchoServerHandler serverHandler = new MyEchoServerHandler();
 		try {
             ServerBootstrap b = new ServerBootstrap();
