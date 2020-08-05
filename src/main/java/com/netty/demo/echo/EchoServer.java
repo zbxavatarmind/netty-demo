@@ -19,6 +19,7 @@ public class EchoServer {
 	    EventLoopGroup workerGroup = new NioEventLoopGroup();
 //	    final EchoServerHandler serverHandler = new EchoServerHandler();567890
 	    //123456
+	    //789
 	    final MyEchoServerHandler serverHandler = new MyEchoServerHandler();
 		try {
             ServerBootstrap b = new ServerBootstrap();
