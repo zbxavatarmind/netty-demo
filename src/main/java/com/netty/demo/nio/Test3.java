@@ -10,7 +10,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.Set;
-
+//1
 public class Test3 {
 	public static void main(String[] args) throws IOException {
 		int ports[] = new int[5];
