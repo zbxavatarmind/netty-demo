@@ -11,7 +11,7 @@ public class PromiseTest {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		EventExecutor executor = new DefaultEventExecutor();
-		
+		//no.3
 		Promise promise = new DefaultPromise(executor);
 		
 		promise.addListener(new GenericFutureListener<Future<String>>() {
