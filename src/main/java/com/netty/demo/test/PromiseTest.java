@@ -6,7 +6,7 @@ import io.netty.util.concurrent.EventExecutor;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import io.netty.util.concurrent.Promise;
-
+//no.1
 public class PromiseTest {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
