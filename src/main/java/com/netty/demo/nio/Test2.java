@@ -7,7 +7,7 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Arrays;
 //
-//3
+
 public class Test2 {
 	public static void main(String[] args) throws Exception {
 		
