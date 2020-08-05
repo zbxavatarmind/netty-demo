@@ -52,7 +52,7 @@ public class PromiseTest {
 				promise.setFailure(new RuntimeException());
 			}
 		});
-		
+		//no.6
 		try {
 //			promise.sync();
 			Promise await = promise.await();
