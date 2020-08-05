@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.example.echo.EchoClientHandler;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
-
+//first line
 public class EchoClient {
 	public static void main(String[] args) throws InterruptedException {
 		 // Configure the client.3223344   ----32456EEE
