@@ -16,6 +16,7 @@ import io.netty.handler.logging.LoggingHandler;
 public class EchoClient {
 	public static void main(String[] args) throws InterruptedException {
 		 // Configure the client.3223344   ----32456EEE
+		//123
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap b = new Bootstrap();
