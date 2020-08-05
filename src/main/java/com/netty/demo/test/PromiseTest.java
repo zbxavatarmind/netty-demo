@@ -28,7 +28,7 @@ public class PromiseTest {
 			}
 			
 		}).addListener(new GenericFutureListener<Future<String>>() {
-
+			//no.5
 			@Override
 			public void operationComplete(Future<String> future) throws Exception {
 				System.out.println("任务结束，balabala...");
