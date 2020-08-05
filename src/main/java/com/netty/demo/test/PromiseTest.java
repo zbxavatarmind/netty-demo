@@ -16,7 +16,7 @@ public class PromiseTest {
 		Promise promise = new DefaultPromise(executor);
 		
 		promise.addListener(new GenericFutureListener<Future<String>>() {
-
+//no.4
 			@Override
 			public void operationComplete(Future<String> future) throws Exception {
 				if(future.isSuccess()) {
