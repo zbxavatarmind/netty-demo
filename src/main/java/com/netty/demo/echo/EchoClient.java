@@ -14,7 +14,9 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 //first line
 //second line
+//third line
 public class EchoClient {
+	//forth line
 	public static void main(String[] args) throws InterruptedException {
 		 // Configure the client.3223344   ----32456EEE
 		//123
